@@ -9,6 +9,14 @@ character of the final pair with an underscore ('_').
 
 """
 
+def solution(s):
+    result = []
+    x =-1 if len(s)%2!=0 else 0
+    for i in range(0,len(s)+x,2):
+        result.append(s[i]+s[i+1])  
+    if x == -1:
+        result.append(s[-1]+"_")
+    return result
 
 def solution(s):
     if s == "":
