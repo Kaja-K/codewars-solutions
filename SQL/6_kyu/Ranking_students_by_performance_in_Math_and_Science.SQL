@@ -1,5 +1,6 @@
 /*
-Let's consider a case where we have a students table and a courses table. The tables have the following structure:
+Let's consider a case where we have a students table and a 
+courses table. The tables have the following structure:
 
 students:
 
@@ -20,7 +21,13 @@ courses:
 | 4   | 1          | Literature  | 80    |
 ...
 
-Your task is to write a SQL query that identifies the students who have the highest combined score in 'Math' and 'Science' and assigns each student a unique ordinal number (which we will call 'rank') based on their total score. The student with the highest combined score should receive a rank of 1. If students have the same total score, the student with the smaller student ID should receive the lower rank.
+Your task is to write a SQL query that identifies the students
+ who have the highest combined score in 'Math' and 'Science' 
+ and assigns each student a unique ordinal number (which we 
+ will call 'rank') based on their total score. The student 
+ with the highest combined score should receive a rank of 1. 
+ If students have the same total score, the student with 
+ the smaller student ID should receive the lower rank.
 
 Your query should return the following columns:
 

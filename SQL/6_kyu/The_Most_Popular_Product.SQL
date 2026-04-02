@@ -16,8 +16,10 @@ orders table:
     Primary key: id
     Foreign keys: user_id references users(id), product_id references products(id)
 
-In this kata, we need to find the most popular product (i.e., the product that has been ordered the most). 
-In case of a tie in the number of orders, return all most ordered products ordered by product ID in descending 
+In this kata, we need to find the most popular product 
+(i.e., the product that has been ordered the most). 
+In case of a tie in the number of orders, return all 
+most ordered products ordered by product ID in descending 
 order. Include in the result also the total number of orders for that product.
 
 Desired Output
