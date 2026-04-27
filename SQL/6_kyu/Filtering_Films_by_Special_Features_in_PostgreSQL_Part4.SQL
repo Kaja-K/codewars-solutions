@@ -1,6 +1,9 @@
 /*
-Write a PostgreSQL query that selects film_id, the title and special_features columns from the film table in the DVD rental database, and returns all films that have the most popular feature as one of their features. By "most popular" is meant that it appears most frequently among all the special features amidst all films of film table
-Notes:
+Write a PostgreSQL query that selects film_id, the title and special_features
+columns from the film table in the DVD rental database, and returns all films
+that have the most popular feature as one of their features. By "most popular"
+is meant that it appears most frequently among all the special features
+amidst all films of film table
 
     for the sample tests, static dump of DVD Rental Sample Database is used, for the final solution - random tests.
     The result should be ordered by title alphabetically, if title is the same - then by film_id in asc order.
